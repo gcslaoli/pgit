@@ -5,9 +5,9 @@
 
 PERFIX="https://gh.hjmcloud.cn/"
 
-# 获取环境变量 pgitPERFIX, 如果没有设置则使用默认值
-if [ -n "$PGIT_PERFIX" ]; then
-    PERFIX=$PGIT_PERFIX
+# 获取环境变量 PGIT_PREFIX, 如果没有设置则使用默认值
+if [ -n "$PGIT_PREFIX" ]; then
+    PERFIX=$PGIT_PREFIX
 fi
 
 # 如果没有参数，则显示帮助

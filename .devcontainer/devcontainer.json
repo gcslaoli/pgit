@@ -1,0 +1,25 @@
+{
+	"containerEnv": {
+	  "TZ": "Asia/Shanghai"
+	},
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "ms-ceintl.vscode-language-pack-zh-hans",
+		  "GitHub.vscode-pull-request-github",
+		  "ms-azuretools.vscode-docker",
+		  "github.copilot",
+		  "golang.go",
+		  "esbenp.prettier-vscode",
+		  "dbaeumer.vscode-eslint",
+		  "vue.volar",
+		  "cweijan.vscode-database-client2"
+		]
+	  }
+	},
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "make init",
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "root"
+  }
+  
