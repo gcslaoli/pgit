@@ -2,6 +2,13 @@
 
 pgit 是 Proxy Git 的缩写，使用镜像加速 github 下载,支持 repo,release
 
+## 仓库
+
+- [github](https://github.com/gcslaoli/pgit)
+- [gitee](https://gitee.com/gcslaoli/pgit)
+
+[![李栋/pgit](https://gitee.com/gcslaoli/pgit/widgets/widget_card.svg?colors=ffffff,1e252b,323d47,455059,d7deea,99a0ae)](https://gitee.com/gcslaoli/pgit)
+
 ## 安装
 
 从`github`下载
