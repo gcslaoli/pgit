@@ -3,7 +3,7 @@
 # Author: LiDong (cnlidong@live.cn)
 # Date: 2022-11-10
 
-PERFIX="https://gh.hjmcloud.cn/"
+PERFIX="https://ghproxy.com/"
 
 # 获取环境变量 PGIT_PREFIX, 如果没有设置则使用默认值
 if [ -n "$PGIT_PREFIX" ]; then

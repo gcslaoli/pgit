@@ -42,11 +42,14 @@ pgit wget -O cool-tools https://github.com/cool-team-official/cool-admin-go/rele
 
 ## 配置
 
-`pgit`默认使用的镜像地址为`https://gh.hjmcloud.cn/`,如果需要使用其他镜像地址,可以设置环境变量`PGIT_PREFIX`来指定.
+`pgit`默认使用的镜像地址为`https://ghproxy.com/`,如果需要使用其他镜像地址,可以设置环境变量`PGIT_PREFIX`来指定.
 
-例如使用`https://ghproxy.com/`:
+例如使用`https://gh.hjmcloud.cn/`:
 
 ```bash
-export PGIT_PREFIX=https://ghproxy.com/
+export PGIT_PREFIX=https://gh.hjmcloud.cn/
 ```
 
+## 自建镜像
+
+如果需要自建镜像,可以使用开源项目[gh-proxy](https://github.com/hunshcn/gh-proxy)来搭建.
