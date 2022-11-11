@@ -1,2 +1,2 @@
 # pgit
-使用镜像回事github下载,支持repo,release
+使用镜像加速github下载,支持repo,release
