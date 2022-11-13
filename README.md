@@ -14,13 +14,13 @@ pgit 是 Proxy Git 的缩写，使用镜像加速 github 下载,支持 repo,rele
 从`github`下载
 
 ```bash
-curl -o pgit https://raw.githubusercontent.com/gcslaoli/pgit/main/shell/pgit && chmod +x pgit && mv pgit /usr/local/bin
+curl -o pgit https://raw.githubusercontent.com/gcslaoli/pgit/main/shell/pgit && chmod +x pgit && sudo mv pgit /usr/local/bin
 ```
 
 从`gitee`下载
 
 ```bash
-curl -o pgit https://gitee.com/gcslaoli/pgit/raw/main/shell/pgit && chmod +x pgit && mv pgit /usr/local/bin
+curl -o pgit https://gitee.com/gcslaoli/pgit/raw/main/shell/pgit && chmod +x pgit && sudo mv pgit /usr/local/bin
 ```
 
 ## 使用
