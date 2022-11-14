@@ -5,10 +5,14 @@
 
 PERFIX="https://ghproxy.com/"
 
+VERSION="1.0.0"
+
 # 获取环境变量 PGIT_PREFIX, 如果没有设置则使用默认值
 if [ -n "$PGIT_PREFIX" ]; then
     PERFIX=$PGIT_PREFIX
 fi
+
+
 
 # 如果没有参数，则显示帮助
 if [ $# -eq 0 ]; then
@@ -19,6 +23,7 @@ if [ $# -eq 0 ]; then
     )
     echo "------------------------------------------------------------"
     echo "pgit installed in $DIR"
+    echo "Current version: $VERSION"
     echo "Current mirror: $PERFIX"
     echo "Usage: pgit install|clone|wget|crul|... [args]"
     echo "  install: install pgit"
